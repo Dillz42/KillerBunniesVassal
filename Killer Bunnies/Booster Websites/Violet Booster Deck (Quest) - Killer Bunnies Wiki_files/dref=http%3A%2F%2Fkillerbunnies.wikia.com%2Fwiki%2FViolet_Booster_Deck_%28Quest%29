@@ -1,0 +1,23 @@
+function AdClicked(url)
+{ 
+    var clickLineDisabled = "$dcli";
+    if(clickLineDisabled=="1")
+    {
+        return;
+    }
+    
+    var winOpen = "1";
+    if(winOpen == "1")
+    {
+        window.open(url,"");
+    }else
+    {
+        parent.location.href=url; 
+    }
+}
+var clickLineVarName1642636035 = 'http://imp.bid.ace.advertising.com/click/site=903853/mnum=2026211/bnum=53072222/cstr=53072222=_554d4684_1642636035_903853*2026211*1244*0_1_/xsxdata=$xsxdata/xsinvid=0/imptid=AS39753505599946e89bc286f9848639d1/deviceid=?';
+
+document.write('<a href="javascript:AdClicked(clickLineVarName1642636035);" target="_self">');
+document.write('<img src="http://bannerfarm.ace.advertising.com/CDN/343431/weddingdress_728x90.jpg" border="0" width="728" height="90" alt="Click to learn more...">');
+document.write('</a>');
+document.write('<script src="http://js.moatads.com/advertisingdotcom370674952587/moatad.js#moatClientLevel1=2026211&moatClientLevel2=343431&zMoatMediaWidth=728&zMoatMediaHeight=90&zMoatSegmentID=1244&zMoatImpressionID=AS39753505599946e89bc286f9848639d1&moatClientSlicer1=903853&moatClientSlicer2=0&zMoatSiteDomain=killerbunnies.wikia.com&zMoatDevice=1_device_category" type="text/javascript"></script>');

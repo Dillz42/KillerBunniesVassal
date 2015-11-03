@@ -1,0 +1,5 @@
+document.write("<scr"+"ipt type='text/javascript' src='//u.openx.net/d.min.js'>\n");
+document.write("</scr"+"ipt>\n");
+
+
+document.write('<img src="http://soundwave.bnmla.com/usersync?sspid=15&r=http://ums.adtechus.com/mapuser?providerid=1029;userid=$UID" width="1" height="1" style="display:none;">');
